@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/Saipurciful/embroidery#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^1.1.2"
+    "express-async-handler": "^1.1.4",
+    "http-proxy-middleware": "^1.1.2",
+    "mongoose": "^5.12.4"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
