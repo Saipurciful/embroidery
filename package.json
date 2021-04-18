@@ -1,6 +1,6 @@
 {
   "name": "embroidery",
-  "homepage": "https://saipurciful.github.io/embroidery",
+  "homepage": " https://saipurciful.github.io/embroidery/",
   "type": "module",
   "version": "1.0.0",
   "description": "",
@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/Saipurciful/embroidery/issues"
   },
-  "homepage": "https://github.com/Saipurciful/embroidery#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
