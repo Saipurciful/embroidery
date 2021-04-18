@@ -1,16 +1,15 @@
 {
-  "name": "embroidery",
   "homepage": " https://saipurciful.github.io/embroidery/",
+  "name": "embroidery",
   "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
-
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
