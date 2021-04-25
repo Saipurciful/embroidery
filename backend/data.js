@@ -11,7 +11,7 @@ const data = {
             isSeller: true,
             seller: {
                 name: 'Puma',
-                logo: '../images/logo1.jpg',
+                logo: '/images/collar1.jpg',
                 description: 'best seller',
                 rating: 4.5,
                 numReviews: 120,
@@ -30,7 +30,7 @@ const data = {
 
             name: 'Nike Slim Shirt',
             category: 'Shirts',
-            image: '../images/collar1.jpg',
+            image: '/images/collar1.jpg',
             price: 120,
             countInStock: 10,
             brand: 'Nike',
@@ -42,7 +42,7 @@ const data = {
 
             name: 'Adidas Fit Shirt',
             category: 'Shirts',
-            image: '../images/collar2.jpg',
+            image: '/images/collar2.jpg',
             price: 100,
             countInStock: 20,
             brand: 'Adidas',
@@ -54,7 +54,7 @@ const data = {
 
             name: 'Lacoste Free Shirt',
             category: 'Shirts',
-            image: '../images/collar1.jpg',
+            image: '/images/collar1.jpg',
             price: 220,
             countInStock: 0,
             brand: 'Lacoste',

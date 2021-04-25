@@ -10,7 +10,6 @@ import { listTopSellers } from '../actions/userActions';
 import { Link } from 'react-router-dom';
 
 export default function HomeScreen() {
-
     const dispatch = useDispatch();
     const productList = useSelector((state) => state.productList);
     const { loading, error, products } = productList;
@@ -22,9 +21,7 @@ export default function HomeScreen() {
         users: sellers,
     } = userTopSellersList;
 
-
     useEffect(() => {
-
         dispatch(listProducts({}));
         dispatch(listTopSellers());
     }, [dispatch]);
@@ -42,8 +39,8 @@ export default function HomeScreen() {
                                 {sellers.map((seller) => (
                                     <div key={seller._id}>
                                         <Link to={`/seller/${seller._id}`}>
-                                            <img src={seller.logo} alt={seller.name} />
-                                            <p className="legend">{seller.name}</p>
+                                            <img src={seller.seller.logo} alt={seller.seller.name} />
+                                            {/* <p className="legend">{seller.seller.name}</p> */}
                                         </Link>
                                     </div>
                                 ))}
@@ -66,6 +63,5 @@ export default function HomeScreen() {
                         </>
                     )}
         </div>
-
     );
 }
