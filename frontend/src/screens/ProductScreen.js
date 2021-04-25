@@ -60,6 +60,18 @@ export default function ProductScreen(props) {
                                     <div className="card card-body">
                                         <ul>
                                             <li>
+                                                Seller{' '}
+                                                <h2>
+                                                    <Link to={`/seller/${product.seller}`}>
+                                                        {product.name}
+                                                    </Link>
+                                                </h2>
+                                                <Rating
+                                                    rating={product.rating}
+                                                    numReviews={product.numReviews}
+                                                ></Rating>
+                                            </li>
+                                            <li>
                                                 <div className="row">
                                                     <div>Price</div>
                                                     <div className="price">${product.price}</div>
